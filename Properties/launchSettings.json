@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "azure_func_dotnet_isolated_test": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7252",
+      "launchBrowser": false
+    }
+  }
+}
