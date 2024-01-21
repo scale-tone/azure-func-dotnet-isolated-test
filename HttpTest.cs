@@ -22,7 +22,7 @@ namespace DotNetIsolatedTest
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
-            response.WriteString("123");
+            response.WriteString("234");
 
             return response;
         }
